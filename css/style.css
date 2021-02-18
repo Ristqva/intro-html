@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    min-height: 800px;
+    background: url("../img/TOP_BG.png") center center/cover no-repeat;
+}
+
+.container_top {
+    max-width: 634px;
+    margin: 0 auto;
+}
+
+.menu_list {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu_item {
+    flex-wrap: wrap;
+    color: #4d4959;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.about {
+    padding: 117px 0 145px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container_about {
+    max-width: 1080px;
+}
+
+.about_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.about_title {
+    margin-top: 34px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #353738;
+}
+
+.about_descr {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 34px;
+    color: #848789;
+}
+
+.work {
+    background: #fff;
+    overflow: hidden;
+}
+
+.bike1 {
+    display: grid;
+    grid-template-columns: [logo]70% [txt]30%;
+    min-height: 600px;
+}
+
+.bike1_image {
+    grid-column: logo;
+    background-image: url('../img/bike_one_left_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bike1_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bike1_text {
+    grid-column: txt;
+    background-image: url('../img/bike1_text_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bike_icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 71px;
+}
+
+.bike_title {
+    margin-top: 31px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bike_descr {
+    margin-top: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 10%;
+    text-align: left;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 50px;
+    background-color: #d7d7d7;
+    margin: 50px auto 60px auto;
+}
+
+.bike2 {
+    display: grid;
+    grid-template-columns: [txt] 30% [logo] 70%;
+    min-height: 600px;
+}
+
+.bike2_text {
+    grid-column: txt;
+    background-image: url('../img/bike2_left_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bike2_image {
+    grid-column: logo;
+    background-image: url('../img/bike2_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bike2_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bike3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 600px;
+}
+
+.bike3_image1 {
+    background-image: url('../img/bike3_left_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bike3_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bike3_right_img {
+    width: 100%;
+    height: 100%;
+}
+
+.bike3_text {
+    background-image: url('../img/bike3_mid_img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    padding: 124px 0 180px 0;
+    background-image: url('../img/twitter_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.twitter_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.twitter_nick {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.twitter_text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: [shopleft]1fr [shopmid]1fr [shopright]1fr;
+    grid-template-rows: 540px;
+}
+
+.shop_left {
+    grid-column: shopleft;
+}
+
+.shop_left1 {}
+
+.shop_left1 {
+    background-image: url('../img/shop_left1.png');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop_mid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: shopmid;
+}
+
+.shop_right {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: shopright;
+}
