@@ -269,9 +269,6 @@
         top: 50%;
         left: 50%;
         transition: all 0.7s 0s;
-        -webkit-transform: translate(-150%, -50%);
-        -ms-transform: translate(-150%, -50%);
-        transform: translate(-150%, -50%);
         cursor: pointer;
     }
     
