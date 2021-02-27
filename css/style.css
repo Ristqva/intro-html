@@ -259,9 +259,6 @@
     .img_container_medium:hover img,
     .img_container_large:hover img {
         opacity: 1;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
     }
     
     .img_container_small img,
