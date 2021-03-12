@@ -23,6 +23,11 @@
         line-height: 25px;
     }
 }
+@media (max-width:629px) {
+    .bike3_logo {
+        width: 100%;
+    }
+}
 @media (max-width:426px) {
     .bike_descr {
         font-size: 10px;
