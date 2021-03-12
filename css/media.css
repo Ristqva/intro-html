@@ -5,9 +5,41 @@
         margin: 0;
     }
 
-@media (max-width:1823px) {
-    .bike1_descr {
-        padding: 0 9%;
+@media (max-width:1024px) {
+    .bike_descr {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+@media (max-width:832px) {
+    .bike_descr {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+@media (max-width:710px) {
+    .bike_descr {
+        font-size: 10px;
+        line-height: 25px;
+    }
+}
+@media (max-width:426px) {
+    .bike_descr {
+        font-size: 10px;
+        line-height: 19px;
+    }
+}
+@media (max-width:376px) {
+    .bike_descr {
+        line-height: 15px;
+    }
+}
+@media (max-width:321px) {
+    .bike_descr {
+        line-height: 12px;
+    }
+    .menu_item {
+        font-size: 11px;
     }
 }
 @media (max-width:1440px) {
