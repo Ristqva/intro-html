@@ -1,0 +1,46 @@
+@media (max-width:1654px) {
+    .brand, .street, .city {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+@media (max-width:1823px) {
+    .bike1_descr {
+        padding: 0 9%;
+    }
+}
+@media (max-width:1440px) {
+    .bike1_logo {
+        background-size: 100% 100%;
+    }
+    .bike2_logo {
+        background-size: 100% 100%;
+    }
+    .bike1_text {
+        background-size: 100% 100%;
+        background-attachment:initial;  
+    }
+    .bike2_text {
+        background-size: 100% 100%;
+    }
+    .bike3_text {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width:640px) {
+    .menu_list {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 583px) {
+    .footer {
+        display: block;
+    }
+    .footer_right {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -72,7 +72,7 @@
     .bike1 {
         display: grid;
         grid-template-columns: [logo]70% [txt]30%;
-        min-height: 600px;
+        grid-template-rows: 600px;
     }
     
     .bike1_image {
@@ -93,9 +93,10 @@
     
     .bike1_text {
         grid-column: txt;
-        background-image: url('../img/bike1_text_bg.png');
+        background-image: url(../img/bike1_text_bg.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
     
     .bike_icon {
@@ -390,4 +391,8 @@
     
     .footer_right_text {
         margin-right: 10px;
+    }
+
+    .footer_right_img {
+        background-size: 100% 100%;
     }
