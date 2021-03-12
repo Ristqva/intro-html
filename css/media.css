@@ -1,83 +1,82 @@
-@media (max-width:1654px) {
-    .brand, .street, .city {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-@media (max-width:1024px) {
-    .bike_descr {
-        font-size: 14px;
-        line-height: 30px;
-    }
-}
-@media (max-width:832px) {
-    .bike_descr {
-        font-size: 12px;
-        line-height: 25px;
-    }
-}
-@media (max-width:710px) {
-    .bike_descr {
-        font-size: 10px;
-        line-height: 25px;
-    }
-}
-@media (max-width:629px) {
-    .bike3_logo {
-        width: 100%;
-    }
-}
-@media (max-width:426px) {
-    .bike_descr {
-        font-size: 10px;
-        line-height: 19px;
-    }
-}
-@media (max-width:376px) {
-    .bike_descr {
-        line-height: 15px;
-    }
-}
-@media (max-width:321px) {
-    .bike_descr {
-        line-height: 12px;
-    }
-    .menu_item {
-        font-size: 11px;
-    }
-}
-@media (max-width:1440px) {
-    .bike1_logo {
-        background-size: 100% 100%;
-    }
-    .bike2_logo {
-        background-size: 100% 100%;
-    }
-    .bike1_text {
-        background-size: 100% 100%;
-        background-attachment:initial;  
-    }
-    .bike2_text {
-        background-size: 100% 100%;
-    }
-    .bike3_text {
-        background-size: 100% 100%;
-    }
-}
-
-@media (max-width:640px) {
-    .menu_list {
-        margin: 0 15px;
-    }
-}
-
-@media (max-width: 583px) {
-    .footer {
-        display: block;
-    }
-    .footer_right {
-        display: flex;
-        justify-content: center;
-    }
-}
+                @media (max-width:1654px) {
+                .brand,
+                .street,
+                .city {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                }
+                @media (max-width:1024px) {
+                    .bike_descr {
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                }
+                @media (max-width:832px) {
+                    .bike_descr {
+                        font-size: 12px;
+                        line-height: 25px;
+                    }
+                }
+                @media (max-width:710px) {
+                    .bike_descr {
+                        font-size: 10px;
+                        line-height: 25px;
+                    }
+                }
+                @media (max-width:629px) {
+                    .bike3_logo {
+                        width: 100%;
+                    }
+                }
+                @media (max-width:426px) {
+                    .bike_descr {
+                        font-size: 10px;
+                        line-height: 17px;
+                    }
+                }
+                @media (max-width:376px) {
+                    .bike_descr {
+                        line-height: 14px;
+                    }
+                }
+                @media (max-width:321px) {
+                    .bike_descr {
+                        line-height: 12px;
+                    }
+                    .menu_item {
+                        font-size: 11px;
+                    }
+                }
+                @media (max-width:1440px) {
+                    .bike1_logo {
+                        background-size: 100% 100%;
+                    }
+                    .bike2_logo {
+                        background-size: 100% 100%;
+                    }
+                    .bike1_text {
+                        background-size: 100% 100%;
+                        background-attachment: initial;
+                    }
+                    .bike2_text {
+                        background-size: 100% 100%;
+                    }
+                    .bike3_text {
+                        background-size: 100% 100%;
+                    }
+                }
+                @media (max-width:640px) {
+                    .menu_list {
+                        margin: 0 15px;
+                    }
+                }
+                @media (max-width: 583px) {
+                    .footer {
+                        display: block;
+                    }
+                    .footer_right {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
